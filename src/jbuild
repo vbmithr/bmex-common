@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(library
+ ((name        bmex_common)
+  (public_name bmex-common)
+  (synopsis "Common code between BitMEX adapters")
+  (libraries (async dtc-pb))))
