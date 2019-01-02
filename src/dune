@@ -1,0 +1,5 @@
+(library
+ (name        bmex_common)
+ (public_name bmex-common)
+ (synopsis "Common code between BitMEX adapters")
+ (libraries uri uri.services ipaddr.unix async conduit-async dtc-pb))
